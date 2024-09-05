@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>15 Etiquetas Adicionales en HTML3</title>
+</head>
+<body>
+    <h1>15 Etiquetas Adicionales en HTML3</h1>
+
+    <!-- Etiqueta 1: <div> -->
+    <h2>&lt;div&gt;</h2>
+    <p>La etiqueta <code>&lt;div&gt;</code> es un contenedor genérico que se utiliza para agrupar contenido y aplicar estilos o scripts.</p>
+    <pre>
+        &lt;div&gt;
+            &lt;p&gt;Contenido dentro de un div.&lt;/p&gt;
+        &lt;/div&gt;
+    </pre>
+
+    <!-- Etiqueta 2: <span> -->
+    <h2>&lt;span&gt;</h2>
+    <p>La etiqueta <code>&lt;span&gt;</code> es un contenedor en línea utilizado para aplicar estilos a una parte del texto.</p>
+    <pre>
+        &lt;p&gt;Este es un &lt;span style="color:red;"&gt;texto rojo&lt;/span&gt;.&lt;/p&gt;
+    </pre>
+
+    <!-- Etiqueta 3: <strong> -->
+    <h2>&lt;strong&gt;</h2>
+    <p>La etiqueta <code>&lt;strong&gt;</code> se usa para enfatizar texto con importancia, lo que generalmente lo hace aparecer en negrita.</p>
+    <pre>
+        &lt;p&gt;Este es un &lt;strong&gt;texto importante&lt;/strong&gt;.&lt;/p&gt;
+    </pre>
+
+    <!-- Etiqueta 4: <em> -->
+    <h2>&lt;em&gt;</h2>
+    <p>La etiqueta <code>&lt;em&gt;</code> se utiliza para enfatizar texto, lo que lo hace aparecer en cursiva.</p>
+    <pre>
+        &lt;p&gt;Este es un &lt;em&gt;texto enfatizado&lt;/em&gt;.&lt;/p&gt;
+    </pre>
+
+    <!-- Etiqueta 5: <br> -->
+    <h2>&lt;br&gt;</h2>
+    <p>La etiqueta <code>&lt;br&gt;</code> inserta un salto de línea en el texto.</p>
+    <pre>
+        &lt;p&gt;Línea 1&lt;br&gt;Línea 2&lt;/p&gt;
+    </pre>
+
+    <!-- Etiqueta 6: <hr> -->
+    <h2>&lt;hr&gt;</h2>
+    <p>La etiqueta <code>&lt;hr&gt;</code> inserta una línea horizontal que separa el contenido.</p>
+    <pre>
+        &lt;hr&gt;
+    </pre>
+
+    <!-- Etiqueta 7: <form> -->
+    <h2>&lt;form&gt;</h2>
+    <p>La etiqueta <code>&lt;form&gt;</code> define un formulario que recoge datos del usuario y los envía a un servidor.</p>
+    <pre>
+        &lt;form action="/submit" method="post"&gt;
+            &lt;input type="text" name="nombre" placeholder="Tu nombre"&gt;
+            &lt;input type="submit" value="Enviar"&gt;
+        &lt;/form&gt;
+    </pre>
+
+    <!-- Etiqueta 8: <input> -->
+    <h2>&lt;input&gt;</h2>
+    <p>La etiqueta <code>&lt;input&gt;</code> permite al usuario ingresar datos en un formulario. Puede tener varios tipos, como texto, botón, casilla de verificación, etc.</p>
+    <pre>
+        &lt;input type="text" name="nombre"&gt;
+    </pre>
+
+    <!-- Etiqueta 9: <textarea> -->
+    <h2>&lt;textarea&gt;</h2>
+    <p>La etiqueta <code>&lt;textarea&gt;</code> crea un área de texto en la que los usuarios pueden escribir múltiples líneas de texto.</p>
+    <pre>
+        &lt;textarea name="comentario" rows="4" cols="50"&gt;Escribe tu comentario aquí...&lt;/textarea&gt;
+    </pre>
+
+    <!-- Etiqueta 10: <select> y <option> -->
+    <h2>&lt;select&gt; y &lt;option&gt;</h2>
+    <p>La etiqueta <code>&lt;select&gt;</code> crea un menú desplegable, y la etiqueta <code>&lt;option&gt;</code> define las opciones dentro del menú.</p>
+    <pre>
+        &lt;select name="opciones"&gt;
+            &lt;option value="1"&gt;Opción 1&lt;/option&gt;
+            &lt;option value="2"&gt;Opción 2&lt;/option&gt;
+        &lt;/select&gt;
+    </pre>
+
+    <!-- Etiqueta 11: <label> -->
+    <h2>&lt;label&gt;</h2>
+    <p>La etiqueta <code>&lt;label&gt;</code> asocia un texto descriptivo con un control de formulario, como un campo de entrada o una casilla de verificación.</p>
+    <pre>
+        &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+        &lt;input type="text" id="nombre" name="nombre"&gt;
+    </pre>
+
+    <!-- Etiqueta 12: <button> -->
+    <h2>&lt;button&gt;</h2>
+    <p>La etiqueta <code>&lt;button&gt;</code> crea un botón que puede realizar una acción cuando se hace clic en él.</p>
+    <pre>
+        &lt;button type="button"&gt;Haz clic aquí&lt;/button&gt;
+    </pre>
+
+    <!-- Etiqueta 13: <iframe> -->
+    <h2>&lt;iframe&gt;</h2>
+    <p>La etiqueta <code>&lt;iframe&gt;</code> permite incrustar otra página web dentro del documento actual.</p>
+    <pre>
+        &lt;iframe src="https://www.ejemplo.com" width="300" height="200"&gt;&lt;/iframe&gt;
+    </pre>
+
+    <!-- Etiqueta 14: <b> -->
+    <h2>&lt;b&gt;</h2>
+    <p>La etiqueta <code>&lt;b&gt;</code> hace que el texto dentro de ella aparezca en negrita, pero sin agregar énfasis semántico.</p>
+    <pre>
+        &lt;p&gt;Este es un &lt;b&gt;texto en negrita&lt;/b&gt;.&lt;/p&gt;
+    </pre>
+
+    <!-- Etiqueta 15: <i> -->
+    <h2>&lt;i&gt;</h2>
+    <p>La etiqueta <code>&lt;i&gt;</code> hace que el texto dentro de ella aparezca en cursiva, pero sin agregar énfasis semántico.</p>
+    <pre>
+        &lt;p&gt;Este es un &lt;i&gt;texto en cursiva&lt;/i&gt;.&lt;/p&gt;
+    </pre>
+
+<br><li><a href="INICIO.html">INICIO</a></li></br>
+
+<br><li><a href="PAGINA1.html">PAGINA1</a></li></br>
+
+<br><li><a href="PAGINA2.html">PAGINA2</a></li></br>
+
+<br><li><a href="PAGINA3.html">PAGINA3</a></li></br>
+
+
+</body>
+</html>
